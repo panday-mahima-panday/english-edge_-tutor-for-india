@@ -1,20 +1,20 @@
-English Edge — AI-Powered Learning App
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+</div>
 
-Built with Gemini 3 Pro · Designed & Created by Mahima Panday
+# Run and deploy your AI Studio app
 
-English Edge is an advanced, AI-driven English-learning platform crafted to help students—especially Indian learners—improve their speaking, pronunciation, fluency, grammar, and confidence through personalized feedback and real-time learning interactions.
+This contains everything you need to run your app locally.
 
-This app transforms learning into a friendly journey instead of a fear.
-It uses Google Gemini 3 Pro, multimodal reasoning, AI-powered speech analysis, and a beautifully crafted UI/UX tailored for learners.
+View your app in AI Studio: https://ai.studio/apps/drive/13UwV1OuPpeKz0STya9z04jrYR0TiJ8bP
 
-🚀 Live Demo
+## Run Locally
 
-🔗 Public AI Studio App:
-https://ai.studio/apps/drive/13UwV1OuPpeKz0STya9z04jrYR0TiJ8bP?fullscreenApplet=true
+**Prerequisites:**  Node.js
 
-🎥 Demo Video (YouTube):
-https://youtu.be/22H_uReuaFA
 
-🎯 Vision
-
-To create a safe, friendly, judgement-free English learning environment for Indian students where mistakes are celebrated and improvement feels natural—not stressful.
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`

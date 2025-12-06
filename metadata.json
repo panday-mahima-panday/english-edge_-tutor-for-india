@@ -1,0 +1,7 @@
+{
+  "name": "English Edge: Tutor for India",
+  "description": "A smart English speaking tutor designed for Indian college students using Gemini API.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
